@@ -226,3 +226,18 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+# RedBot config and backups
+redbot-backup.tar.gz
+config-backup.tar.gz
+*.tar.gz
+
+# Environment files
+.env
+.env.local
+
+# RedBot data
+.config/
+
+# Logs
+*.log
+

@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: redbot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m redbot myinstance --no-prompt
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9

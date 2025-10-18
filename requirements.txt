@@ -1,0 +1,7 @@
+Red-DiscordBot
+PyNaCl==1.5.0
+yt-dlp
+pillow
+aiofiles
+discord.py[voice]
+
